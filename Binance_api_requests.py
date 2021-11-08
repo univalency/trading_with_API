@@ -91,6 +91,5 @@ params11 = {
         "timeInForce": "GTC",
         'newClientOrderId': 1,
         }
-
-send_signed_request('POST', '/api/v3/order', params11)
+signed_request('POST', '/api/v3/order', params11)
 
